@@ -1,0 +1,23 @@
+{
+  "name": "elevate-innovate-hyperspace",
+  "version": "1.0.0",
+  "description": "Elevate Innovation website utilizing Hyperspace theme by HTML5 UP",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SoftwareSquadConsulting/elevate-innovation-hyperspace.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SoftwareSquadConsulting/elevate-innovation-hyperspace/issues"
+  },
+  "homepage": "https://github.com/SoftwareSquadConsulting/elevate-innovation-hyperspace#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^4.0.2"
+  }
+}

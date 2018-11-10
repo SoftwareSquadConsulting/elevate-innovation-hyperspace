@@ -101,27 +101,28 @@
 				}
 
 				&:before {
-					background: lighten(_palette(bg), 5);
+					background: lighten(_palette(sidebar-indicator), 5);
 				}
 
 				&:after {
-					@include vendor('background-image', 'linear-gradient(to right, #{_palette(accent1)}, #{_palette(accent3)})');
+					@include vendor('background-image', 'linear-gradient(to right, #{_palette(accent1)}, #{_palette(accent3)} 60%)');
 					@include vendor('transition', 'max-width #{_duration(transition)} ease');
 					max-width: 0;
 				}
 
 				&:hover {
-					color: _palette(fg);
+					color: _palette(dark);
 				}
 
 				&.active {
-					color: _palette(fg-bold);
+					color: _palette(dark);
 
 					&:after {
 						max-width: 100%;
 					}
 				}
 			}
+
 		}
 
 		body.is-preload & {
